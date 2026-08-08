@@ -1,0 +1,3 @@
+dtb: dtb/
+ramdisk: ramdisk/
+recovery_ramdisk: recovery_ramdisk/
