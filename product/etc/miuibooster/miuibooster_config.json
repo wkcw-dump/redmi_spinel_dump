@@ -1,0 +1,10 @@
+{
+    "cpufreq": {
+        "little_core_value": [2000000, 1600000, 1250000],
+        "big_core_value": [2200000, 1900000, 1500000]
+    },
+    "gpufreq": [0, 9, 18],
+    "ddrfreq": {
+        "values": [0, 1, 2]
+    }
+}

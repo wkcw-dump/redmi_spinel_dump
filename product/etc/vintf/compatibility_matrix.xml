@@ -1,0 +1,76 @@
+<!--
+    Input:
+        device/xiaomi/spinel/product/vendor_framework_compatibility_matrix.xml
+        device/xiaomi/missi/device_framework_compatibility_matrix/miguardca/vendor_framework_compatibility_matrix.xml
+        device/xiaomi/spinel/product/vendor_framework_compatibility_matrix_mpayjoy.xml
+        vendor/mediatek/proprietary/packages/apps/FactoryAPP/apps/xml/factoryService_framework_compatibility_matrix.xml
+        vendor/mediatek/proprietary/packages/apps/FactoryAPP/apps/xml/customNvService_framework_compatibility_matrix.xml
+        device/xiaomi/spinel/product/vendor_framework_compatibility_matrix.xml
+        device/xiaomi/spinel/product/vendor_framework_compatibility_matrix_mpayjoy.xml
+-->
+<compatibility-matrix version="9.0" type="framework">
+    <hal format="aidl">
+        <name>android.hardware.vibrator</name>
+        <version>2</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>android.hardware.vibrator</name>
+        <version>2</version>
+        <interface>
+            <name>IVibrator</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>interfaces.customNvService</name>
+        <interface>
+            <name>ICustomNv</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>interfaces.factoryAta</name>
+        <interface>
+            <name>IFactoryAta</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>interfaces.factoryInterface</name>
+        <interface>
+            <name>IFactoryInterface</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IFactorySensor</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl">
+        <name>vendor.xiaomi.hardware.miguardca</name>
+        <interface>
+            <name>IMiguardService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.mpayjoyca</name>
+        <version>1.0</version>
+        <interface>
+            <name>IPayjoyService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl">
+        <name>vendor.xiaomi.hardware.mpayjoyca</name>
+        <version>1.0</version>
+        <interface>
+            <name>IPayjoyService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
