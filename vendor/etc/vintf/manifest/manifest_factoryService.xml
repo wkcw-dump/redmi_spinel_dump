@@ -1,0 +1,15 @@
+<!--
+    Input:
+        vendor/smartsoft/FactoryAPP/Factory-hal/factoryServices/aidlServices/xml/manifest_factoryService.xml
+-->
+<manifest version="9.0" type="device">
+    <hal format="aidl">
+        <name>interfaces.factoryAta</name>
+        <fqname>IFactoryAta/default</fqname>
+    </hal>
+    <hal format="aidl">
+        <name>interfaces.factoryInterface</name>
+        <fqname>IFactoryInterface/default</fqname>
+        <fqname>IFactorySensor/default</fqname>
+    </hal>
+</manifest>

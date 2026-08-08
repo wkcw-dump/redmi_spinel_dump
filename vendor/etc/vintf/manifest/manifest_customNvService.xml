@@ -1,0 +1,10 @@
+<!--
+    Input:
+        vendor/smartsoft/FactoryAPP/Factory-hal/factoryServices/aidlServices/xml/manifest_customNvService.xml
+-->
+<manifest version="9.0" type="device">
+    <hal format="aidl">
+        <name>interfaces.customNvService</name>
+        <fqname>ICustomNv/default</fqname>
+    </hal>
+</manifest>
